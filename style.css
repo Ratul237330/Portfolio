@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #94cbc5;
+    color: #0e0c0c;
+}
+#about img {
+  border-radius: 50%;   /* makes it circular */
+  display: block;
+  margin: 0 auto;       /* centers the image */
+}
+header {
+    background-color: #b1a8cf;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin: 88px;
+}
+
+button {
+    background-color: #4a3f6e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1ca304;
+}
+button:active {
+    background-color: #d37604;
+}

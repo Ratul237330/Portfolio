@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <heaad>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   </heaad> 
+   <body>
+
+    <header>
+        <h1>Md. Ratul Hasan</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/myphoto.jpeg" alt="My Profile Picture" width="200">
+        <p>I am a passionate web developer with experience in building responsive and user-friendly websites. I enjoy learning new technologies and improving my skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Bash scripting</li>
+            <li>Regex, DFA, NFA</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills and projects.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="https://formsubmit.co/ajax/fhfratul@gmail.com" method="post"></form>
+        <input type="text" name="name" placeholder="Your Name" required>
+         <br>
+         <br>
+         <input type="email" name="email" placeholder="Your Email" required>
+         <br>
+         <br>
+         <textarea name="message" placeholder="Your Message" required></textarea>
+          <br>
+         <br>   
+         <button type="submit">Send Message</button>
+         <p id="form-status"></p>
+         </form>
+    </section>
+    <script src="script.js"></script>
+
+   </body>
+</html>
